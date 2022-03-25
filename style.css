@@ -9,6 +9,10 @@ body {
     font-family: sans-serif;
 }
 
+a {
+    color: white;
+}
+
 .main {
     display: flex;
 }
@@ -19,8 +23,11 @@ body {
     background-image: url("img/bg-img.jpg");
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     height: 100vh;
+    color: white;
+    text-align: center;
+    
 }
 
 .logo-banner {
@@ -28,8 +35,17 @@ body {
     justify-content: center;
     align-items: center;
     font-family: norse-bold, sans-serif;
-    color: white;
     background-color: rgba(0, 0, 0, 0.5);
     height: auto;
     font-size: 5em;
+    margin-top: 20vh;
+    padding: 16px;
+}
+
+.attribution-bg-img {
+    font-size: .8em;
+}
+
+.logo-banner img {
+    height: 120px;
 }
