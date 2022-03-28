@@ -59,6 +59,17 @@ a {
     justify-content: center;
 }
 
+.header {
+    font-size: 1.2rem;
+    font-weight: 600;
+    max-width: 800px;
+    margin: 48px 0;
+}
+
+.header>p {
+    margin-left: 48px;
+}
+
 .inputs-container {
     background-color: white;
     padding: 20px 0;
