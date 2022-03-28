@@ -7,7 +7,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: #f2f2f2;
 }
 
 a {
@@ -26,6 +25,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+    width: 1000px;
     color: white;
     text-align: center;
     
@@ -44,15 +44,32 @@ a {
 }
 
 .attribution-bg-img {
-    font-size: .8em;
+    font-size: .8rem;
 }
 
 .logo-banner img {
     height: 120px;
 }
 
-.form-inputs {
+.form-section {
+    background-color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputs-container {
     background-color: white;
+    padding: 20px 0;
+    box-shadow: 5px 5px 5px 0px #D6D6D6;
+}
+
+.inputs-container>p {
+    margin: 0 48px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .inputs {
@@ -60,10 +77,25 @@ a {
     flex-direction: column;
 }
 
-.row {
-    display: flex;
+.input {
+    margin: 10px 48px;
 }
 
-label, input {
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 80px; */
+}
+
+label {
     display: block;
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+input {
+    display: block;
+    border: 1px solid #dddada;
+    border-radius: 3px;
 }
