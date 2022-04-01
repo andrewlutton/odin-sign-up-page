@@ -110,3 +110,28 @@ input {
     border: 1px solid #dddada;
     border-radius: 3px;
 }
+
+input:focus {
+    outline: 1px solid #65a4df;
+    box-shadow: 5px 5px 5px 0px #D6D6D6;
+}
+
+.log-in a {
+    color: #596D48;
+}
+
+.log-in p{
+    margin-top: 0px;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 48px;
+    font-size: .8rem;
+    font-weight: 600;
+    box-shadow: 5px 5px 5px 0px #D6D6D6;
+    margin: 28px 48px;
+}
